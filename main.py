@@ -2,7 +2,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-from backend.meta import get_meta
+from meta import get_meta
 
 TOKEN = os.getenv("BOT_TOKEN")
 
